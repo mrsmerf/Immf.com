@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMMF - Islamic Movement of Muslim Freedom</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #0d1117; /* Dark, professional background */
+      color: #ffffff; /* Light text for contrast */
+    }
+
+    /* Header */
+    header {
+      background-color: #11161.c; /* Subtle, darker tone */
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 4px solid #d72638; /* Bold red for emphasis */
+    }
+
+    .logo {
+      width: 220px;
+      height: 90px;
+      background-image: url('https://i.ibb.co/GCbs05d/immf.jpg');
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%;
+      border:  solid #d72638;
+    }
+
+    .title-container {
+      text-align: right;
+    }
+
+    header h1 {
+      font-size: 28px;
+      margin: 0;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+    }
+
+    header p {
+      margin: 5px 0;
+      font-size: 16px;
+      color: #c9c9c9;
+    }
+
+    /* Navigation Bar */
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #1c2026;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #d72638;
+    }
+
+    /* Hero Section */
+    .hero {
+      background:<a href="https://imgbb.com/"><img src="https://i.ibb.co/GCbs05d/immf.jpg" alt="immf" border="0" /></a> no-repeat center center/cover; /* High-impact background image */
+      height: 70vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Overlay for text readability */
+    }
+
+    .hero-content {
+      z-index: 2;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin: 0;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin: 15px 0 30px;
+    }
+
+    .cta-button {
+      background-color: #d72638;
+      color: #ffffff;
+      padding: 15px 40px;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #a11d2b;
+    }
+
+    /* Content Section */
+    .content {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+
+    .content h2 {
+      font-size: 36px;
+      font-weight: bold;
+      text-transform: uppercase;
+      color: #d72638;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .content p {
+      font-size: 18px;
+      margin: 15px 0;
+      color: #d0d0d0;
+    }
+
+    /* Contact Section */
+    .contact-form {
+      background-color: #1c2026;
+      padding: 40px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      background-color: #2c3137;
+      color: #ffffff;
+    }
+
+    .contact-form button {
+      background-color: #d72638;
+      color: #ffffff;
+      padding: 12px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #a11d2b;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #11161c;
+      text-align: center;
+      padding: 20px;
+      color: #d0d0d0;
+    }
+
+    footer p {
+      font-size: 14px;
+      margin: 5px 0;
+    }
+
+    footer a {
+      color: #d72638;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    footer a:hover {
+      color: #a11d2b;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo"></div>
+  <div class="title-container">
+    <h1>Islamic Movement of Muslim Freedom</h1>
+    <p>Global Defense Against Oppression</p>
+  </div>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#mission">Our Mission</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Protecting Muslim Lives</h2>
+    <p>Your support ensures freedom, security, and dignity for all.</p>
+    <a href="https://t.me/immfreport" class="cta-button">Report a Threat</a>
+  </div>
+</section>
+
+<div class="content" id="about">
+  <h2>About IMMF</h2>
+  <p>IMMF is a global initiative focused on safeguarding the lives and rights of Muslims worldwide. Through strategic interventions, humanitarian aid, and defense programs, we ensure that vulnerable communities are protected.</p>
+</div>
+
+<div class="content" id="mission">
+  <h2>Our Mission</h2>
+  <p>We aim to provide swift action in crisis areas, rescue missions, and essential supplies to Muslims facing persecution. Every action is driven by the commitment to justice, freedom, and equality.</p>
+</div>
+
+<div class="content" id="contact">
+  <h2>Contact Us</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+<footer>
+  <p>&copy; 2024 Islamic Movement of Muslim Freedom. All Rights Reserved.</p>
+  <p><a href="https://t.me/immfreport">Join Our Telegram</a></p>
+</footer>
+
+</body>
+</html>
